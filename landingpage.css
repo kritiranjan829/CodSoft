@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  color:#4B2C47;
+  background-color: #f4eef3;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+  background-color: #4B2C47;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block; 
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  border-radius:6px;
+}
+
+.navbar a:hover {
+  color: #8405f4;
+}
+h1{
+    border: 1px solid #ccc;
+    border-radius: 0%;
+    padding: 20px;
+    background-color: #f4eac5;
+
+}

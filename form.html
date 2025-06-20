@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get a Quote</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      background-color: #f4eef3;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #4B2C47;
+    }
+
+    .quote-form {
+      background-color: #f9f6f8;
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: 50px auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .quote-form h2 {
+      margin-bottom: 10px;
+      color: #4B2C47;
+      text-align: center;
+    }
+
+    .quote-form p {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1rem;
+    }
+
+    .quote-form form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .quote-form label {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .quote-form input,
+    .quote-form select,
+    .quote-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-top: 5px;
+      font-size: 1rem;
+    }
+
+    .quote-form button {
+      margin-top: 25px;
+      padding: 12px;
+      background-color: #4B2C47;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .quote-form button:hover {
+      background-color: #914D7C;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="get-quote" class="quote-form">
+    <h2>Get a Free Quote</h2>
+    <p>Tell us what you need — we'll get back to you with a custom plan.</p>
+
+    <form action="https://example.com/submit-form" method="POST">
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="service">What Service Are You Looking For? *</label>
+      <select id="service" name="service">
+        <option value="web-development">Web Development</option>
+        <option value="Responsive Design">Responsive Design</option>
+        <option value="SEO-Setup">SEO Setup</option>
+        <option value="UI-UX Design">UI-UX Design</option>
+        <option value="Maintenance">Maintenance</option>
+      </select>
+
+      <label for="message">Project Details *</label>
+      <textarea id="message" name="message" rows="5" placeholder="Describe your project..."></textarea>
+
+      <button type="submit">Request a Quote</button>
+    </form>
+  </section>
+
+</body>
+</html>
