@@ -1,0 +1,21 @@
+body{
+    text-align:justify;
+    background-color: #fffdfa;
+    color: #4B2C47;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4B2C47;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #914D7C;
+}
